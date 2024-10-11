@@ -14,5 +14,9 @@ if(isNaN(weight) || isNaN(height) || height<=0 || weight<=0) {
 }
 
 
+//Formula BMI Apply on weight and height
+
+var bmI = weight / (height * height);
+
 
 }
