@@ -19,4 +19,11 @@ if(isNaN(weight) || isNaN(height) || height<=0 || weight<=0) {
 var bmI = weight / (height * height);
 
 
+//Jo Bmi aya hay wo user ko show kardo
+
+var result = document.getElementById('category');
+
+
+
+
 }
