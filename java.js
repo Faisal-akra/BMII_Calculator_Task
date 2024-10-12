@@ -22,7 +22,7 @@ var bmI = weight / (height * height);
 
 var result = document.getElementById('category');
 
-result.textContent = `Your Body Mass Index is ${Math.floor(bmI)}`
+result.textContent = `Your Body Mass Index is ${bmI.toFixed(2)}`
 
 
 
